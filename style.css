@@ -24,6 +24,7 @@ h1 {
   background-color: #d9c5b2;
   font-size: 8vmin;
   color: #14110f;
+  cursor: pointer;
 }
 .game {
   height: 60vmin;
@@ -34,9 +35,18 @@ h1 {
   align-items: center;
   gap: 1.5vmin;
 }
-#reset-btn {
+#resetBtn {
   padding: 1rem;
   font-size: 1.25rem;
+  background-color: #14110f;
+  color: #f3f3f4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#new-game {
+  padding: 10px 15px;
+  font-size: 0.8rem;
   background-color: #14110f;
   color: #f3f3f4;
   border: none;
